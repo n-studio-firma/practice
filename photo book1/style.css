@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  background-color: #F4F9FF;
+}
+
+/* PC用　CSS */
+
+/* header */
+header {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#logo a img {
+  display: block;
+}
+
+#logo img {
+  width: 200px;
+  height: 20px;
+
+}
+
+/* #mv > div {
+  width: 1000px;
+  margin: 0 auto;
+} */
+
+#mv {
+  text-align: center;
+  margin-top:10px;
+}
+
+#mv img {
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+
+/* h2　文字サイズ */
+.content_title {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* index */
+
+#index {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 100%;
+  margin-bottom: 60px;
+  padding: 25px 0;
+}
+
+ol {
+  line-height: 3;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+/* detail */
+
+.containar {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#detail {
+  width: 1000px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+
+.detail_inner {
+  display: flex;
+}
+
+.detail_img img {
+  width: 270px;
+  margin-right: 60px;
+}
+
+h3 {
+  font-size: 18px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+table {
+  border-bottom: solid 1px #DEDEDE;
+  border-top: solid 1px #DEDEDE;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.online_link a {
+  color: black;
+}
+
+.online_link a:hover {
+  opacity: 0.8;
+}
+
+p {
+  font-size: 14px;
+  margin: 25px 0;
+}
+
+td {
+  padding-right: 10px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* footer */
+.copy_right {
+  font-size: 10px;
+}
+
+@media screen and (max-width:1024px) {
+
+  header {
+    max-width: 100%;
+  }
+
+  #mv {
+    padding: 0 10px;
+  }
+
+  #mv img {
+    margin-bottom: 60px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #index {
+    width: 100%;
+  }
+
+  .containar {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  .detail_inner {
+    flex-direction: column;
+
+  }
+
+  .detail_img img {
+    width: 100%;
+    margin: 0;
+    margin: 0 0 25px 0;
+  }
+
+}
