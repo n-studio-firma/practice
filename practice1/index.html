@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>practice1</title>
+  <meta name="description" content="practice1です">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!-- 以下、header -->
+  <header class="wrapper">
+    <div id="logo">
+      <img src="img/logo.svg" alt="ロゴ">
+    </div>
+
+    <nav id="navi"><!-- ナビゲーション -->
+      <li>
+        <a class="global_menu" href="index.html#about">About</a>
+      </li>
+      <li>
+        <a class="global_menu" href="index.html#works">Works</a>
+      </li>
+      <li>
+        <a class="global_menu" href="index.html#news">News</a>
+      </li>
+      <li>
+        <a class="global_menu" href="index.html#contact">Contact</a>
+      </li>
+      <li>
+        <a class="global_menu" href="https://terakoya.sejuku.net/home">
+          <img id="insta-icon" src="img/icon-instagram.png" alt="insta icon"></a>
+      </li>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- メインビジュアル -->
+    <div id="mv">
+      <img src="img/mainvisual-pc.jpg" alt="白い建物と夏っぽさを感じる木が写っている写真">
+    </div>
+
+    <!-- about -->
+    <section id="about" class="wrapper">
+      <h1 class="content-title">About</h1>
+      <div class="profile">
+        <p>Xxxxx Ashley</p>
+        <p>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan <br>
+          tel: 000-0000-0000<br>
+          url: www.xxxxxx.jp<br>
+          mail: xxx@xxxxxx.jp</p>
+        <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキス<br>
+          トテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキ<br>
+          ストテキストテキストテキスト</p>
+      </div>
+    </section>
+
+    <!-- works -->
+    <section id="works" class="wrapper">
+      <h1 class="content-title">Work</h1>
+      <div>
+        <ul class="works-list">
+          <li><img class="works-img" src="img/works1.jpg" alt="黄色い縦線のペイントが印象的なガレージシャッターの写真"></li>
+          <li><img class="works-img" src="img/works2.jpg" alt="所々のベランダの内側が赤いマンション"></li>
+          <li><img class="works-img" src="img/works3.jpg" alt="モニターに文字が映り込んでいる様子"></li>
+          <li><img class="works-img" src="img/works4.jpg" alt="コンクリートの壁とカラフルなカーテンが印象的な建物"></li>
+          <li><img class="works-img" src="img/works5.jpg" alt="曲線が印象的な建物"></li>
+          <li><img class="works-img" src="img/works6.jpg" alt="ピンクの背景に愛敬のマンションの写真"></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- news -->
+    <section id="news" class="wrapper">
+      <h1 class="content-title">News</h1>
+      <table>
+        <tr class="news-top sentence">
+          <td class="date">2020.XX.XX</td>
+          <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</td>
+        </tr>
+
+        <tr class="sentence">
+          <td class="date">2020.XX.XX</td>
+          <td>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</td>
+        </tr>
+
+        <tr class="sentence">
+          <td class="date">2019.XX.XX</td>
+          <td>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</td>
+        </tr>
+
+        <tr class="sentence">
+          <td class="date">2019.XX.XX</td>
+          <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</td>
+        </tr>
+
+        <tr class="sentence">
+          <td class="date">2019.XX.XX</td>
+          <td>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="wrapper">
+      <h1 class="content-title">Contact</h1>
+
+
+      <form action="n.studio.firma@gmail.com">
+
+        <table class="contactForm">
+
+          <tr>
+            <td>
+              <label for="name">NAME</label>
+            </td>
+            <td>
+              <input type="text" name="name" placeholder="name" required>
+            </td>
+          </tr>
+
+          <tr>
+          <td>
+            <label for="mail">MAIL</label>
+          </td>
+          <td>
+            <input type="text" name="mail" placeholder="mail" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="massege">MASSEGE</label>
+          </td>
+          <td>
+            <textarea name="massege"></textarea>
+          </td>
+        </tr>
+
+        </table>
+
+        <div class="contact_btn">
+          <input type="submit" name="submit" value="送信">
+        </div>
+      </form>
+    </section>
+
+  </main>
+  <footer></footer>
+</body>
+
+</html>
