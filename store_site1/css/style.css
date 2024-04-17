@@ -44,7 +44,7 @@ header {
 }
 
 /* main */
-/* コンテンツ1 */
+/*  archive&new */
 .flex_box {
   display: flex;
   align-items: center;
@@ -133,30 +133,30 @@ justify-content: space-between;
   margin-top: 20px;
 }
 
-/* コンテンツ3 */
+/* catalog_antique */
 
 #catalog_antique {
   background-color: #f5f5f5;
 }
 
 .content_inner {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-.inner_img img{
+.inner_img img {
   width: 100%;
 }
 
 .text {
   text-align: center;
-  padding:0 0 0 30px;
+  padding: 0 0 0 30px;
 }
 
 .antique_text {
-  padding:0 30px 0 0;
+  padding: 0 30px 0 0;
 }
 
 .text ul {
@@ -205,6 +205,7 @@ justify-content: space-between;
 
 dt {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 dd {
@@ -218,10 +219,58 @@ dd {
 }
 
 .copy_right {
-text-align: center;
-font-size: 12px;
-padding: 30px 0;
-margin: 0;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px 0;
+  margin: 0;
 }
 
 /* レスポンシブ ブレークポイント:896px */
+@media screen and (max-width:896px) {
+
+  /* archive&new */
+  .flex_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* catalog_antique */
+  .flex_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .antique_inner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 60px 60px 60px;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .text h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+
+  /* footer */
+  .inner_left {
+text-align: unset;
+  }
+
+  .inner_center {
+    width: 100%;
+    text-align: left;
+  }
+
+  .inner_right {
+    width: 100%;
+    text-align: left;
+  }
+
+  .footer_inner {
+    padding:30px 0;
+  }
+}
