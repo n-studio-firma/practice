@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="アパレル企業のECサイトです">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="CSS/sanitize.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <header id="header">
+
+      <!-- headerロゴ -->
+      <a class="logo" href="#index.html">
+        <img src="img/logo.svg" alt="企業ロゴ">
+      </a>
+
+      <!-- グローバルメニュー -->
+      <nav>
+        <div class="menu-left">
+          <a href="#">ALL</a>
+          <a href="#">NEW</a>
+          <a href="#">VINTAGE</a>
+          <a href="#">CATEGORY</a>
+          <a href="#">LOOKBOOK</a>
+          <a href="#">BLOG</a>
+        </div>
+
+        <div class="menu-right">
+          <a href="#">LOGIN</a>
+          <a href="#">CONTACT</a>
+        </div>
+      </nav>
+
+    </header>
+
+    <main>
+      <section id="item" class="flex-item">
+        <div class="item-img">
+          <img src="img/item.jpg" alt="Tシャツを着た人の写真">
+        </div>
+
+        <div class="item-content">
+          <h1>TOTALLY Short Sleeve Shirt</h1>
+          <p>テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト</p>
+          <p>￥9,999 +tax</p>
+
+          <!-- 個数入力 -->
+          <table class="item-count">
+            <tr class="zero-tr">
+              <th class="color">Color</th>
+              <th class="size">Size</th>
+              <th></th>
+            </tr>
+
+            <tr class="first-tr">
+              <th class="color">White</th>
+              <td class="size">S</td>
+              <td>
+                <input type="number" name="item-count" max="99" value="0">
+              </td>
+            </tr>
+
+            <tr class="second-tr">
+              <th class="color">White</th>
+              <td class="size">M</td>
+              <td>
+                <input type="number" name="item-count" max="99" value="0">
+              </td>
+            </tr>
+
+            <t class="third-tr" r>
+              <th class="color">White</th>
+              <td class="size">L</td>
+              <td>
+                <input type="number" name="item-count" max="99" value="0">
+              </td>
+              </tr>
+          </table>
+
+          <div class="btn">
+            <a href="#">ADD TO CART</a>
+          </div>
+
+          <!-- サイズ表 -->
+          <table class="item-size">
+            <tr>
+              <th class="list-color">Size</th>
+              <th class="list-color">Chest</th>
+              <th class="list-color">Weist</th>
+              <th class="list-color">Height</th>
+            </tr>
+
+            <tr>
+              <th class="list-color">S</th>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+            </tr>
+
+            <tr>
+              <th class="list-color">M</th>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+            </tr>
+
+            <tr>
+              <th class="list-color">L</th>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+              <td>99 ～ 99</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;TOTALLY</p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+/* 共通 */
+body {
+  font-family: "Raleway", sans-serif;
+  min-width: 400px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+a,
+p,
+th,
+td {
+  font-size: 12px;
+  color: #333333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+#header {
+  border-bottom: solid 1px #c3c3c3;
+  ;
+}
+
+.logo img {
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+/* main */
+.flex-item {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.item-img {
+  min-width: 400px;
+  margin-right: 60px;
+}
+
+.item-img img {
+  width: 100%;
+}
+
+.item-content {
+  width: 100%;
+}
+
+/* テーブル */
+.item-content h1 {
+  border-top: solid 1px #c3c3c3;
+  ;
+  border-bottom: solid 1px #c3c3c3;
+  ;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.item-content p {
+  margin: 20px 0 30px;
+  line-height: 2;
+}
+
+/* テーブル個数リスト */
+table.item-count {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.zero-tr,
+.first-tr,
+.second-tr {
+  border-bottom: solid 1px #c3c3c3;
+}
+
+.color,
+.size {
+  border-right: solid 1px #c3c3c3;
+  ;
+  padding: 10px;
+  text-align: center;
+  font-weight: normal;
+}
+
+table.item-count td {
+  padding: 10px;
+}
+
+/* ボタン */
+.btn {
+  background-color: #4B4B4B;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+/* テーブルサイズリスト */
+.item-size {
+  width: 100%;
+  border: solid 1px #c3c3c3;
+  ;
+}
+
+.item-size tr {
+  border: solid 1px #c3c3c3;
+  ;
+}
+
+.item-size th,
+.item-size td {
+  border-right: solid 1px #c3c3c3;
+  ;
+  padding: 10px;
+  font-weight: normal;
+}
+
+
+.list-color {
+  background-color: #ECEBEB;
+}
+
+.item-size td {
+  text-align: center;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+/* レスポンシブ　896px */
+@media screen and (max-width:896px) {
+
+  nav {
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-img {
+    margin: 0 0 10px 0;
+  }
+
+  .item-content {
+    padding: 0 16px;
+  }
+}
